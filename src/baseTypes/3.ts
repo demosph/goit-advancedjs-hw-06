@@ -3,9 +3,6 @@ some = 'Text';
 
 let str: string;
 
-// Необхідно зробити перевірку типу перед присвоєнням
-if (typeof some === 'string') {
-  str = some;
-}
+str = some as string;
 
 export {};
